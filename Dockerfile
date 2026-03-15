@@ -1,21 +1,34 @@
-FROM node:lts-bullseye
 
-RUN apt-get update && \
-    apt-get install -y \
-    ffmpeg \
-    imagemagick \
-    webp && \
-    apt-get upgrade -y && \
-    rm -rf /var/lib/apt/lists/*
+name: Node.js CI
 
-WORKDIR /usr/src/app
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
-COPY package.json .
+jobs:
+  build:
 
-RUN npm install && npm install -g qrcode-terminal pm2
+    runs-on: ubuntu-latest
 
-COPY . .
+    strategy:
+      matrix:
+        node-version: [20.x]
 
-EXPOSE 5000
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-CMD ["npm", "start"]
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Start application
+      run: npm start
