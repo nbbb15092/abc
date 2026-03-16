@@ -1,0 +1,55 @@
+name: Node.js CI/CD Workflow
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+        
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Start application
+      run: npm start
+ASITHA-MD V5 Deployment Full Video Guide
+මෙම වීඩියෝවෙන් V5 බොට් එක Heroku භාවිතයෙන් Deploy කරන ආකාරය පෙන්වයි.
+
+
+Sponsored Content
+Native Ad Loading...
+
+asitha.top
+The Ultimate WhatsApp Bot and API Platform for Sri Lanka.
+
+Quick Links
+Home
+API Documentation
+My Profile
+Bot Services
+Channel Ract Services
+Earn Coins Services
+Legal
+Privacy Policy
+Terms of Service
+Connect
+© 2025 asitha.top. All rights reserved. | Built with 💖 and a 🤖 Heart
+
+
