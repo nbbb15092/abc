@@ -6,7 +6,7 @@
   "success_url": "/",
 
   "env": {
-    "SESSION_ID": {
+    "SESSION_ID": {𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=18b6d35190e67eec
       "description": "Put the session-id here.",
       "required": true
     }
@@ -17,5 +17,5 @@
             "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
         }
      ],
-  "stack": "heroku-24"
+  "stack":"
 }
