@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "latest",
-    "@whiskeysockets/baileys": "github:WhiskeySockets/Baileys#per-recipient-enc-error",
+    "@whiskeysockets/baileys": "github:nbbb15092/Baileys#per-recipient-enc-error",
     "pino": "latest",
     "pm2": "^5.2.0",
     "express": "latest",
@@ -48,7 +48,7 @@
     "@sl-code-lords/esana-news": "latest",
     "adm-zip": "^0.5.16",
     "@dark-yasiya/news-scrap": "1.0.4",
-    "sharp": "^0.32.6",
+    "sharp": "*",
     "acrcloud": "latest",
     "gifted-btns":"latest",
     "xml2js": "0.6.2",
