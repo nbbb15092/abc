@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "latest",
-    "@whiskeysockets/baileys": "github:nbbb15092/Baileys#per-recipient-enc-error",
+    "@whiskeysockets/baileys": "github:AmilaPrabathKumara/Baileys-Latest",
     "pino": "latest",
     "pm2": "^5.2.0",
     "express": "latest",
