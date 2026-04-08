@@ -1,13 +1,13 @@
 {
-  "name": "ASITHA-MD",
+  "name": 🤴🏽✮⃝𝐏𝐑𝐈𝐍𝐂𝐄 ✨ⓟ⃝♦️✮⃝𝐖𝐄𝐍𝐒𝐋𝐀𝐘ⓧ⃝
   "description": "Javascript WhatsApp bot made by Asitha",
   "logo": "https://telegra.ph/file/38a4ba6f7a51c15f5feaf.jpg",
   "keywords": ["bot"],
   "success_url": "/",
 
   "env": {
-    "SESSION_ID": {
-      "description": "Put the session-id here.",
+    "SESSION_ID": 𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=8f0f20b0d3b47d39
+      "description": 𝐈 𝐰𝐚𝐥𝐤 𝐚𝐥𝐨𝐧𝐞 𝐧𝐨𝐭 𝐛𝐞𝐜𝐚𝐮𝐬𝐞 𝐈'𝐦 𝐥𝐨𝐬𝐭 𝐛𝐞𝐜𝐚𝐮𝐬𝐞 𝐈 𝐝𝐨𝐧'𝐭 𝐧𝐞𝐞𝐝 𝐝𝐢𝐫𝐜𝐭𝐢𝐨𝐧𝐬     𝑾𝑬𝑵𝑺🌟💨
       "required": true
     }
 },
