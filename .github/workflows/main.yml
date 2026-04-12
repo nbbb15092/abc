@@ -1,31 +1,26 @@
-name: Node.js CI/CD Workflow
+name: Auto Restart Vercel Every 43 Minutes
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  schedule:
+    - cron: "*/43 * * * *"
+  workflow_dispatch:
 
 jobs:
-  build:
+  restart:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [20.x]
-        
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout Repo
+        uses: actions/checkout@v3
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
+      - name: Update Restart File
+        run: |
+          echo "Restart: $(date +%s)" > restart.txt
 
-    - name: Install dependencies
-      run: npm install
-
-    - name: Start application
-      run: npm start
+      - name: Commit Changes
+        run: |
+          git config --global user.name "vercel-bot"
+          git config --global user.email "bot@vercel.com"
+          git add restart.txt
+          git commit -m "Auto restart $(date)" || echo "No changes"
+          git push
