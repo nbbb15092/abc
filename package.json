@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "latest",
-    "@whiskeysockets/baileys": "github:AmilaPrabathKumara/Baileys-Latest",
+    "@whiskeysockets/baileys": "𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=fc90dd89fd098463",
     "pino": "latest",
     "pm2": "^5.2.0",
     "express": "latest",
