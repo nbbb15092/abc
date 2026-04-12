@@ -1,84 +1,98 @@
 <div align="center">
 
-<!-- Hero Header with Gradient Background -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6A0DAD,50:8E44AD,100:9B59B6&height=200&section=header&text=ASITHA%20MD%20V6&fontSize=55&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Next-Gen%20WhatsApp%20Bot&descAlignY=55&descSize=22" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,50:FF0000,100:8B0000&height=220&section=header&text=ASITHA%20MD%20V6&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Next-Gen%20WhatsApp%20Bot&descAlignY=65&descSize=25" width="100%" style="border-radius: 15px;"/>
 
-<!-- Brand Logo -->
-<a href="https://asitha.top">
-  <img src="https://dbv5.pages.dev/IMG-20251212-WA0148(1).jpg" alt="Brand Logo" border="2">
+<br><br>
+
+<a href="https://github.com/nbbb15092/abc">
+  <img src="https://dbv5.pages.dev/IMG-20251212-WA0148(1).jpg" alt="ASITHA MD Banner" width="95%" style="border-radius: 20px; border: 4px solid #FF0000; box-shadow: 0 0 40px rgba(255, 0, 0, 0.6);">
 </a>
 
-<!-- Typing Banner -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=34&pause=1000&color=8E44AD,9B59B6,AF7AC5,BB8FCE&center=true&vCenter=true&width=900&height=70&lines=🚀+ASITHA+MD+V6;⚡+Fast+Fast+Performance;✨+World's+Best+WhatsApp+Bot;🌟+Simple+%26+Powerful+to+Use&gradient=true" alt="Typing Animation">
+<br><br>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=35&pause=1000&color=FF0000,FFFFFF,FF4500&center=true&vCenter=true&width=900&height=70&lines=⚡+FAST+FAST+PERFORMANCE;🔥+RED+EDITION+V6;🛡️+MILITARY+GRADE+SECURITY;✨+THE+NEXT-GEN+WHATSAPP+BOT&gradient=true" alt="Typing SVG" />
+</a>
+
+<br>
+
+<p align="center" style="margin-top: 20px;">
+  <img src="https://img.shields.io/badge/Version-V6.0.0-FF0000?style=for-the-badge&logo=git&logoColor=white&labelColor=8B0000">
+  <img src="https://img.shields.io/badge/License-MIT-000000?style=for-the-badge&logo=opensourceinitiative&logoColor=red&labelColor=333333">
+  <img src="https://img.shields.io/badge/Node.js-20+-FF0000?style=for-the-badge&logo=node.js&logoColor=white&labelColor=8B0000">
+  <img src="https://img.shields.io/badge/Status-ACTIVE-FFD700?style=for-the-badge&logo=statuspage&logoColor=black&labelColor=000000">
 </p>
 
-<!-- Badges -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-v6.0.0-4169E1?style=for-the-badge&logo=semver&logoColor=white">
-  <img src="https://img.shields.io/badge/License-MIT-2ECC71?style=for-the-badge&logo=opensourceinitiative&logoColor=white">
-  <img src="https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=node.js&logoColor=white">
-  <img src="https://img.shields.io/badge/Status-Active-FFD700?style=for-the-badge&logo=statuspage&logoColor=black">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/stars/nbbb15092/abc?style=for-the-badge&logo=github&color=FFD700">
-  <img src="https://img.shields.io/github/forks/nbbb15092/abc?style=for-the-badge&logo=github&color=00CED1">
-  <img src="https://img.shields.io/github/issues/nbbb15092/abc?style=for-the-badge&logo=github&color=FF5733">
-  <img src="https://img.shields.io/github/contributors/nbbb15092/abc?style=for-the-badge&logo=github&color=8E44AD">
-</p>
-
-<!-- Fork & Session Buttons -->
-<div align="center" style="margin:30px 0;">
-  <p><b>🍴 Fork The Repository</b></p>
-  <a href="https://github.com/nbbb15092/abc/fork" target="_blank">
-    <img src="https://img.shields.io/badge/Fork%20Repo-00CED1?style=for-the-badge&logo=github&logoColor=white" height="55">
+  <a href="https://github.com/nbbb15092/abc/stargazers">
+    <img src="https://img.shields.io/github/stars/nbbb15092/abc?style=for-the-badge&logo=github&color=FF0000&labelColor=000000">
   </a>
-</div>
-<div align="center">
-  <p><b>🔑 Get The Session ID</b></p>
-  <a href="https://asitha.top/" target="_blank">
-    <img src="https://img.shields.io/badge/Get%20Session-2ECC71?style=for-the-badge&logo=whatsapp&logoColor=white" height="55">
+  <a href="https://github.com/nbbb15092/abc/network/members">
+    <img src="https://img.shields.io/github/forks/nbbb15092/abc?style=for-the-badge&logo=github&color=8B0000&labelColor=000000">
   </a>
-</div>
+  <a href="https://github.com/nbbb15092/abc/issues">
+    <img src="https://img.shields.io/github/issues/nbbb15092/abc?style=for-the-badge&logo=github&color=FF4500&labelColor=000000">
+  </a>
+</p>
 
-<!-- Features Section -->
-<div align="center" style="display:flex; justify-content:center; flex-wrap:wrap; gap:25px; margin-top:25px;">
-  <div style="background:#6A0DAD; color:white; padding:25px; border-radius:20px; width:270px; box-shadow:0px 8px 20px rgba(0,0,0,0.25); transition:0.3s; font-size:15px; text-align:center;">
-    <h3>🚀 Lightning Fast</h3>
-    <p>Ultra-fast responses with near-zero delay.</p>
-  </div>
-  <div style="background:#8E44AD; color:white; padding:25px; border-radius:20px; width:270px; box-shadow:0px 8px 20px rgba(0,0,0,0.25); transition:0.3s; font-size:15px; text-align:center;">
-    <h3>🛡️ Military Grade Security</h3>
-    <p>End-to-end encrypted with robust privacy features.</p>
-  </div>
-  <div style="background:#9B59B6; color:white; padding:25px; border-radius:20px; width:270px; box-shadow:0px 8px 20px rgba(0,0,0,0.25); transition:0.3s; font-size:15px; text-align:center;">
-    <h3>🎨 Next-Gen UI</h3>
-    <p>Sleek, modern, and super intuitive interface.</p>
-  </div>
-</div>
+<hr style="border-color: #FF0000; margin: 30px 0; width: 80%; opacity: 0.5;">
 
-<!-- Deploy Section -->
-<div align="center" style="margin-top:40px;">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=28&pause=1000&color=8E44AD,FFD700,2ECC71,00CED1&center=true&vCenter=true&width=700&height=50&lines=⚡+Deploy+ASITHA-MD+in+Seconds;🔥+No+Coding+Required;🚀+Start+Your+Bot+Instantly&gradient=true" alt="Deploy Banner">
+<div align="center" style="margin: 30px 0;">
+  <h3 style="color: #FF0000;">🍴 Fork The Repository</h3>
+  <a href="https://github.com/nbbb15092/abc/fork">
+    <img src="https://img.shields.io/badge/FORK%20REPO-NOW-FF0000?style=for-the-badge&logo=github&logoColor=white&height=55" alt="Fork Repo">
+  </a>
   <br><br>
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/nbbb15092/abc" target="_blank">
-    <img src="https://img.shields.io/badge/🚀%20Deploy%20on%20Heroku-8E44AD?style=for-the-badge&logo=heroku&logoColor=white" height="65">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://railway.app?referralCode=queen-elisa" target="_blank">
-    <img src="https://img.shields.io/badge/⚡%20Deploy%20on%20Railway-4169E1?style=for-the-badge&logo=railway&logoColor=white" height="65">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://replit.com/" target="_blank">
-    <img src="https://img.shields.io/badge/💻%20Deploy%20on%20Replit-FF6F00?style=for-the-badge&logo=replit&logoColor=white" height="65">
+  <h3 style="color: #FF0000;">🔑 Get The Session ID</h3>
+  <a href="https://asitha.top/" target="_blank">
+    <img src="https://img.shields.io/badge/GET%20SESSION-CLICK%20HERE-000000?style=for-the-badge&logo=whatsapp&logoColor=red&height=55" alt="Get Session">
   </a>
 </div>
 
-<!-- Footer -->
+<hr style="border-color: #FF0000; margin: 30px 0; width: 80%; opacity: 0.5;">
+
+<h2 align="center" style="color: #FF0000;">⚡ Premium Features ⚡</h2>
+
+<table align="center" width="90%">
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-speed-web-development-flaticons-lineal-color-flat-icons.png" width="50"><br>
+      <b>Lightning Fast</b><br>
+      <font size="2">Ultra-fast responses</font>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/fluency/64/security-checked.png" width="50"><br>
+      <b>Secure</b><br>
+      <font size="2">End-to-end Encrypted</font>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/color/64/artist-palette.png" width="50"><br>
+      <b>Stylish UI</b><br>
+      <font size="2">Red & Dark Theme</font>
+    </td>
+  </tr>
+</table>
+
+<br><br>
+
+<h2 align="center" style="color: #FF0000;">🔥 Deploy Now 🔥</h2>
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6A0DAD,50:8E44AD,100:9B59B6&height=120&section=footer&text=Thank%20You!&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=70&desc=Best+Whatsapp+Bot+❤️&descAlignY=88&descSize=14" />
-  <p><b>© 2025 ASITHA-MD V6 | Made with 💝 by MR ASITHA & Ayooh_XD</b></p>
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/nbbb15092/abc" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20DEPLOY%20ON-HEROKU-8B0000?style=for-the-badge&logo=heroku&logoColor=white&height=60" alt="Deploy to Heroku">
+  </a>
+  <br><br>
+  <a href="https://railway.app?referralCode=queen-elisa" target="_blank">
+    <img src="https://img.shields.io/badge/⚡%20DEPLOY%20ON-RAILWAY-000000?style=for-the-badge&logo=railway&logoColor=red&height=60" alt="Deploy to Railway">
+  </a>
+  <br><br>
+  <a href="https://replit.com/" target="_blank">
+    <img src="https://img.shields.io/badge/💻%20DEPLOY%20ON-REPLIT-FF4500?style=for-the-badge&logo=replit&logoColor=white&height=60" alt="Deploy to Replit">
+  </a>
 </div>
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,50:FF0000,100:8B0000&height=120&section=footer&text=Thank%20You!&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=70&desc=©%202025%20ASITHA-MD%20V6&descAlignY=90&descSize=15" width="100%" style="border-radius: 15px;"/>
 
 </div>
