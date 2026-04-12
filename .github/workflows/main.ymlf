@@ -1,0 +1,26 @@
+name: Auto Restart Vercel Every 43 Minutes
+
+on:
+  schedule:
+    - cron: "*/43 * * * *"
+  workflow_dispatch:
+
+jobs:
+  restart:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Update Restart File
+        run: |
+          echo "Restart: $(date +%s)" > restart.txt
+
+      - name: Commit Changes
+        run: |
+          git config --global user.name "vercel-bot"
+          git config --global user.email "bot@vercel.com"
+          git add restart.txt
+          git commit -m "Auto restart $(date)" || echo "No changes"
+          git push
