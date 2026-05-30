@@ -1,0 +1,74 @@
+name: Node.js CI/CD and Keep Alive
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: '45 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  build_and_start:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+        
+    if: github.event_name != 'schedule'
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Start application
+      run: npm start
+
+  keep_alive_commit:
+    runs-on: ubuntu-latest
+    
+    if: github.event_name == 'schedule'
+
+    permissions:
+      contents: write 
+      actions: write 
+
+    steps:
+    - name: Cancel Previous Keep Alive Workflows
+      uses: styfle/cancel-workflow-action@0.12.1
+      with:
+        access_token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 
+
+    - name: Update asitha2.json with current timestamp
+      id: update_time
+      run: |
+        CURRENT_TIME=$(date +%s%3N)
+        echo "{"lastActive": "$CURRENT_TIME"}" > asitha2.json
+        
+    - name: Setup Git User
+      run: |
+        git config user.name "MR Asitha ❤️"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+    - name: Commit and Push Changes
+      id: commit
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "MR Asitha ❤️: Keep Alive ping"
+        token: ${{ secrets.GITHUB_TOKEN }}
