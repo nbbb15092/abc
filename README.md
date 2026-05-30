@@ -43,8 +43,9 @@
     <img src="https://img.shields.io/badge/FORK%20REPO-NOW-FF0000?style=for-the-badge&logo=github&logoColor=white&height=55" alt="Fork Repo">
   </a>
   <br><br>
-  <h3 style="color: #FF0000;">🔑 Get The Session ID</h3>
-  <a href="https://asitha.top/" target="_blank">
+  <h3 style="color: #FF0000;">🔑 Get The Session ID</h3>   
+𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=baf5703b711dd1be𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=baf5703b711dd1be𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=baf5703b711dd1be
+ 
     <img src="https://img.shields.io/badge/GET%20SESSION-CLICK%20HERE-000000?style=for-the-badge&logo=whatsapp&logoColor=red&height=55" alt="Get Session">
   </a>
 </div>
