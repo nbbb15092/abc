@@ -96,3 +96,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,50:FF0000,100:8B0000&height=120&section=footer&text=Thank%20You!&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=70&desc=©%202025%20ASITHA-MD%20V6&descAlignY=90&descSize=15" width="100%" style="border-radius: 15px;"/>
 
 </div>
+.
+.
+.
+.
