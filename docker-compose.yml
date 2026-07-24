@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  whatsapp-bot:
+    build: .
+    container_name: whatsapp-bot-lamelo
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+    volumes:
+      - ./auth_store:/app/auth_store
+      - ./logs:/app/logs
+    restart: unless-stopped
+    networks:
+      - whatsapp-network
+
+networks:
+  whatsapp-network:
+    driver: bridge

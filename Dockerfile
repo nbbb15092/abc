@@ -1,21 +1,28 @@
-FROM node:lts-bullseye
+FROM node:18-alpine
 
-RUN apt-get update && \
-    apt-get install -y \
-    ffmpeg \
-    imagemagick \
-    webp && \
-    apt-get upgrade -y && \
-    rm -rf /var/lib/apt/lists/*
+WORKDIR /app
 
-WORKDIR /usr/src/app
+# Installer PM2 globalement
+RUN npm install -g pm2
 
-COPY package.json .
+# Copier les fichiers de dépendances
+COPY package*.json ./
 
-RUN npm install && npm install -g qrcode-terminal pm2
+# Installer les dépendances
+RUN npm install --production
 
+# Copier le code de l'application
 COPY . .
 
-EXPOSE 5000
+# Créer les répertoires de logs
+RUN mkdir -p logs auth_store
 
-CMD ["npm", "start"]
+# Exposer le port
+EXPOSE 3000
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+  CMD node -e "require('http').get('http://localhost:3000', (r) => {if (r.statusCode !== 200) throw new Error(r.statusCode)})" || exit 1
+
+# Lancer l'application avec PM2
+CMD ["pm2-runtime", "start", "ecosystem.config.js"]
