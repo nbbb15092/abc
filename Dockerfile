@@ -1,6 +1,6 @@
 FROM node:lts-bullseye
 
-RUN apt-get update && \
+RUN apt-get update -o Acquire::Check-Valid-Until=false && \
     apt-get install -y \
     ffmpeg \
     imagemagick \
