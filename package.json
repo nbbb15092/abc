@@ -7,7 +7,7 @@
   "scripts": {
     "start": "pm2 start start.js --deep-monitoring --attach --name ASITHA-MD",
     "stop": "pm2 stop ASITHA-MD",
-    "restart": "pm2 restart ASITHA-MD"
+    "restart": "pm2 restart ASITHA-M"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "latest",
